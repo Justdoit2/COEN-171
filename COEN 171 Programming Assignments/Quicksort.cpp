@@ -24,13 +24,13 @@ void quickSort(int arr[], int left, int right){
     /*partition*/
     while(i<=j)
     {
-        while (arr[i]<pivot) //if all of them is sorted, then never have to enter below the if statement
+        while (arr[i]<pivot) 
             i++;
-        while (arr[j]>pivot) //if  not any of these cases
+        while (arr[j]>pivot) 
             j--;
         
-        //also if value is out of place, automatically go to this if statment
-        if (i<=j) { //this mean the position i is less than j
+        
+        if (i<=j) { 
             tmp=arr[i];
             arr[i]=arr[j];
             arr[j]=tmp;
@@ -39,10 +39,10 @@ void quickSort(int arr[], int left, int right){
             
         }
     }
-    if (left<j) //j not finished yet
-        quickSort(arr,left,j); //left j went down [2,1,] so j is  (left ) to lowest j, 21
+    if (left<j) 
+        quickSort(arr,left,j); 
     if (i<right)
-        quickSort(arr,i,right); //right upper half so [87]
+        quickSort(arr,i,right); 
 
     
 }
