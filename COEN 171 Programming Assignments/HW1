@@ -1,0 +1,11 @@
+•Programming Exercises-
+
+ 1)To understand the value of records in a programming language, 
+ write a small program in a C-based language that uses an array 
+ of structs that store student information, including name, age,
+ GPA as a float, and grade level as a string (e.g., “freshmen,” etc.).
+ Also, write the same program in the same language without using structs.
+
+2)To understand the value of recursion in a programming language, write 
+a program that implements quicksort, first using recursion 
+and then with- out recursion.
